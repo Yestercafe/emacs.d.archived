@@ -42,3 +42,4 @@
 ;; 小工具
 (require 'init-wakatime)
 (require 'init-magit)
+(require 'init-term)
