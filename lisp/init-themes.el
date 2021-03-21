@@ -13,7 +13,8 @@
 (setq default-frame-alist '((font . "Iosevka SS05-14")))
 
 ;; 超级牛逼字体
-(use-package fontawesome)
+(use-package fontawesome
+  :ensure t)
 
 
 (provide 'init-themes)
