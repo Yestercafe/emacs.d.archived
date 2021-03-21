@@ -38,6 +38,7 @@
 (require 'init-swiper)
 (require 'init-counsel)
 (require 'init-company)
+(require 'init-lsp)
 (require 'init-flycheck)
 
 ;; 小工具
