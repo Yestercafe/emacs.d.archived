@@ -33,10 +33,10 @@
 (require 'init-ace)
 
 ;; 核心设施
+(require 'init-evil)
 (require 'init-ivy)
 (require 'init-swiper)
 (require 'init-counsel)
-(require 'init-evil)
 (require 'init-company)
 (require 'init-flycheck)
 

@@ -3,8 +3,6 @@
 ;; evil-mode
 (use-package evil
   :ensure t
-  :init
-  (evil-mode)
   :config
   (dolist (p '((minibuffer-inactive-mode . emacs)
              (term-mode . emacs)
@@ -19,8 +17,8 @@
 ;; ESC 键映射
 (use-package evil-escape
   :ensure t
-  :init
-  (evil-escape-mode)
+  :hook
+  ((evil-mode . evil-escape-mode))
   :config
   (setq evil-escape-delay 0.3)
   (setq evil-escape-excluded-major-modes '(dired-mode))

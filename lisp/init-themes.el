@@ -12,5 +12,8 @@
 (set-frame-font "Iosevka SS05-14")
 (setq default-frame-alist '((font . "Iosevka SS05-14")))
 
+;; 超级牛逼字体
+(use-package fontawesome)
+
 
 (provide 'init-themes)
