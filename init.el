@@ -22,16 +22,17 @@
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 (require 'init-bootstrap)
 (require 'init-tmp-preload)
+(require 'init-package)
 
 ;; 基础设施
-(require 'init-package)
-(require 'init-macos)
+(require 'init-utils)
 (require 'init-themes)
 (require 'init-ui)
 (require 'init-modeline)
+(require 'init-macos)
 (require 'init-ace)
 
-;; 核心插件
+;; 核心设施
 (require 'init-ivy)
 (require 'init-swiper)
 (require 'init-counsel)
@@ -43,3 +44,4 @@
 (require 'init-wakatime)
 (require 'init-magit)
 (require 'init-term)
+(require 'init-dash)
