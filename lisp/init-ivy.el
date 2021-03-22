@@ -20,6 +20,10 @@
   (ivy-rich-mode)
   )
 
+;; all-the-icons-ivy-rich 装完之后需要执行\
+;; `'M-x all-the-icons-install-fonts`' 手动安装支持字体\
+;; 注意，这个字体是从 GitHub 上面下载的，所以需要激活代理\
+;; 后再在 Emacs 中下载
 (use-package all-the-icons-ivy-rich
   :ensure t
   :init
