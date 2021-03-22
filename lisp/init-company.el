@@ -40,13 +40,6 @@
 
 ;; 成对符号自动补齐
 (electric-pair-mode 1)
-(setq electric-pair-pairs
-      '((?\" . ?\")
-	(?\{ . ?\})
-	(?\' . ?\')
-	(?\’ . ?\‘)
-	(?\“ . ?\”)
-	))
 
 ;; 彩虹界符
 (use-package rainbow-delimiters
