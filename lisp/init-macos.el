@@ -12,7 +12,10 @@
   ;; 设置一些 macOS 中常用的 shortcuts
   (global-set-key (kbd "s-a") 'mark-whole-buffer)
   (global-set-key (kbd "s-s") 'save-buffer)
-  (global-set-key (kbd "s-v") 'yank))
+  (global-set-key (kbd "s-v") 'yank)
+  (global-set-key (kbd "s-z") 'undo-fu-only-undo)
+  (global-set-key (kbd "s-Z") 'undo-fu-only-redo)
+  )
 
 
 (provide 'init-macos)
